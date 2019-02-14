@@ -42,6 +42,7 @@ SETUP_REQUIRES = (
 INSTALL_REQUIRES = (
     'oasys1>=1.1.36',
     'vinyl-srw>=1.0.1'
+    'wofrysrw>=1.0.28'
 )
 
 PACKAGES = find_packages(exclude=('*.tests', '*.tests.*', 'tests.*', 'tests'))
@@ -98,7 +99,6 @@ if __name__ == '__main__':
               install_requires = INSTALL_REQUIRES,
               #extras_require = EXTRAS_REQUIRE,
               entry_points = ENTRY_POINTS,
-              dependency_links=["https://github.com/PaNOSC-ViNYL/wofrysrw"],
               namespace_packages=NAMESPACE_PACAKGES,
               include_package_data = True,
               zip_safe = False,
