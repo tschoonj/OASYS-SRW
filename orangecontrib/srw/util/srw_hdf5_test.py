@@ -37,7 +37,7 @@ test based on Example 4 of the SRW distribution (undulator + lens)
 
 import unittest
 import numpy
-from srwlib import *
+from vinyl_srw.srwlib import *
 
 from srw_hdf5 import save_wfr_2_hdf5, load_hdf5_2_wfr, load_hdf5_2_dictionary
 import os

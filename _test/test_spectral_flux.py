@@ -1,4 +1,4 @@
-from srwlib import *
+from vinyl_srw.srwlib import *
 from uti_plot import *
 import numpy
 

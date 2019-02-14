@@ -5,7 +5,7 @@
 #############################################################################
 
 from __future__ import print_function #Python 2.7 compatibility
-from srwlib import *
+from vinyl_srw.srwlib import *
 import os
 
 print('SRWLIB Python Example # 8:')
