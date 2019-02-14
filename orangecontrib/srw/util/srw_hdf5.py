@@ -32,7 +32,7 @@ __date__ = "27/05/2018"
 
 
 
-from srwlib import *
+from vinyl_srw.srwlib import *
 import numpy
 import h5py
 
